@@ -61,6 +61,7 @@ nav a {
 .featured {
   position: relative;
 }
+
 .featured-title {
   padding-top: 88px;
   margin-bottom: 106px;
@@ -68,6 +69,7 @@ nav a {
   font-size: 45px;
   font-weight: 600px;
 }
+
 .featured-container {
   display: flex;
   align-items: center;
@@ -80,10 +82,21 @@ nav a {
 .featured h1 {
   font-size: 36px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+}
+.featured hr {
+  width: 309px;
+  height: 3px;
+  border: none;
+  background: #f3f25b;
+  /* margin: 0 auto; */
+}
+.featured p {
+  margin-top: 10px;
 }
 .text-right {
   text-align: right;
+  padding-top: 10px;
 }
 .btn-right-side {
   position: absolute;
@@ -174,8 +187,13 @@ nav a {
 .works-conatiner {
   margin-top: 152px;
   padding-top: 162px;
-  height: 400px;
+
   background: #ffffe9;
+}
+.works-conatiner hr {
+  height: 10px;
+  border: none;
+  background: #f4ed5e;
 }
 .works-title {
   text-align: center;
@@ -206,4 +224,8 @@ nav a {
   display: flex;
   justify-content: space-between;
   margin: 75px 10px 156px 10px;
+}
+footer {
+  height: 110px;
+  background: #ffffe9;
 }
