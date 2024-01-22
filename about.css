@@ -229,3 +229,27 @@ footer {
   height: 110px;
   background: #ffffe9;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .featured-container {
+    flex-direction: column;
+    height: 100%;
+  }
+  .second-featured {
+    flex-direction: column-reverse;
+  }
+  .btn-right-side {
+    position: relative;
+  }
+  .btn-view-more {
+    position: relative;
+  }
+  .customer-info-container {
+    flex-direction: column;
+  }
+  .works-item-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
