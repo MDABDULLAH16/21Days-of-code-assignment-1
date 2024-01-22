@@ -170,3 +170,40 @@ nav a {
   justify-content: center;
   gap: 24px;
 }
+/* work section*/
+.works-conatiner {
+  margin-top: 152px;
+  padding-top: 162px;
+  height: 400px;
+  background: #ffffe9;
+}
+.works-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  font-style: normal;
+}
+.works-title hr {
+  width: 309px;
+  height: 3px;
+  border: none;
+  background: #f3f25b;
+  margin: 0 auto;
+}
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.works p {
+  text-align: center;
+}
+.work-title {
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.works-item-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 75px 10px 156px 10px;
+}
