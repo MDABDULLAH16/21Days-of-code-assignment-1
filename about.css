@@ -98,3 +98,75 @@ nav a {
   background: #f3f25b;
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
 }
+/* customer review*/
+.arrow {
+  display: flex;
+}
+.left {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.right {
+  height: 50px;
+  width: 50px;
+  background-color: Orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.comma {
+  height: 28px !important;
+  width: 40px !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 27px;
+}
+.customer-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  margin-top: 152px;
+  margin-bottom: 36px;
+}
+.customer-title h1 {
+  font-size: 34px;
+}
+.customer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 24px;
+  border: 1px solid var(--gray, #efefef);
+  background: #ffffe9;
+}
+.customer-info img {
+  height: 80px;
+  width: 80px;
+  margin-top: 35px;
+}
+.customer-info p {
+  text-align: center;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+.customer-name {
+  margin-top: 10px;
+  margin-bottom: 31px;
+}
+
+.customer-info-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
